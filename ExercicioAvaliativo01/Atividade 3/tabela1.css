@@ -1,0 +1,40 @@
+/*
+selector{
+  propriedade: valor;  
+}
+*/
+
+/*
+Código da cor é no formato RGB
+    R - RED (de 00 a FF)
+    G - GRENN (de 00 a FF)
+    B - BLUE (de 00 a FF)
+*/
+
+h1, h2{
+  margin: 10px 0px 10px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+  color: gray;
+}
+
+tr:nth-child(even) {
+  background: rgb(211, 209, 209)
+ }
+ tr:nth-child(odd) {
+  background: white
+  
+ }
+
+ th{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 10.5pt;
+   font-style: normal;
+ }
+ 
+ tr.red{
+   background-color: red;
+   color: white;
+ }
