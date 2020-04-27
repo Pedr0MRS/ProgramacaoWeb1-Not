@@ -1,0 +1,37 @@
+tr {
+  display: flex;
+  justify-content: space-around;
+}
+
+th {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10.5pt;
+  font-style: normal;
+  border: 5px transparent solid;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 20px;
+}
+
+th:hover{
+  border-color: red;
+  background-color: rgba(252, 158, 158, 0.959);
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+body {
+  background-color: white;
+  max-width: 50%;
+  margin-left: 25%;
+}
+
+table {
+  padding: 5px;
+  justify-content: center;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
