@@ -1,5 +1,5 @@
 $( "#btnLogin" ).click(function() {
-    if($("#myInput").val() != "" || $("#myInput").val() != ""){
+    if($("#email").val() == "" || $("#senha").val() == ""){
         alert( "Preencha os campos de login e senha" );
         return;
     }
