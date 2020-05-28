@@ -1,0 +1,21 @@
+.bg {
+    background-image: url('./Assets/cell.png');
+}
+
+.cardLogin {
+    height: 100vh;
+}
+
+.btn-site {
+    background-color: rgb(255, 102, 0) !important;
+    color: white !important;
+}
+
+.btn-site:hover{
+    background-color: rgb(235, 94, 0) !important;
+}
+
+.centraliza {
+    margin-top: auto;
+    margin-bottom: auto;
+}
