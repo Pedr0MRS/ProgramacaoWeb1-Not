@@ -2,6 +2,15 @@
     background-image: url('../Assets/hiclipart.com.png');
 }
 
-.site-body{
+.site-body {
     margin-top: 4%;
+}
+
+.carousel-inner>.item>img {
+    width: auto;
+    height: 100px;
+}
+
+.carousel {   
+    height: auto;
 }
