@@ -1,0 +1,26 @@
+.bg {
+    background-image: url('../Assets/hiclipart.com.png');
+    background-size: 100% auto; 
+    background-repeat: no-repeat;   
+    width: auto;
+    height: 100%;
+}
+
+.btn-site {
+    background-color: rgb(255, 102, 0) !important;
+    color: rgb(255, 255, 255) !important;
+    margin-top: 10px;
+    margin-left: 50%;
+}
+
+.centraliza {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card{
+    opacity: 90%;
+    height: 70%;
+    width: 70%;
+    margin: auto;
+}
