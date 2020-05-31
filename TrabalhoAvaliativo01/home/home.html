@@ -4,24 +4,74 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./home.css">
+    <link href='https://fonts.googleapis.com/css?family=Reenie Beanie' rel='stylesheet'>
     <title>Case World</title>
 </head>
 
 <body>
-    <header>
-
-    </header>
-
     <div class="bg">
-        <div class="container site-body">
-            <div class="row">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Case World</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Celulares</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Capinhas
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">iPhone</a>
+                                <a class="dropdown-item" href="#">Samsung</a>
+                                <a class="dropdown-item" href="#">Xiaomi</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Acessórios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div class="row page-content">
                 <div class="col-md-6 col-sm-12">
-                    <div class="card h-20">
-                        <div class="card-body align-items-center d-flex">
-                            <h2>Crie aqui sua capinha personalizada</h2>
+                    <div class="card">
+                        <div class="card-body card-formulario">
+                            <div class="container">
+                                <h2 style="font-family:'Reenie Beanie'">
+                                    Crie aqui sua capinha personalizada</h2>
+                                    <div class="col-md-12">
+                                        <button type="button" style="width: 100%;" class="btn btn-site">Clique Aqui</button>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -34,15 +84,15 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100"
+                                <img class="imagem-carousel"
                                     src="../Assets/capa-para-iphone-6-e-6s-de-silicone-0023658_600.jpg"
                                     alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="../Assets/capas2.jpg" alt="Second slide">
+                                <img class="imagem-carousel" src="../Assets/capas2.jpg" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="../Assets/capas3.jpg" alt="Third slide">
+                                <img class="imagem-carousel" src="../Assets/capas3.jpg" alt="Third slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
@@ -59,12 +109,77 @@
                 </div>
             </div>
 
-            <div class="col-md-12">
-                HAHAHAA
+            <div class="items-venda">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12">
+                        <div class="card">
+                            <div class="card-body align-items-center">
+                                <div class="row">
+                                    <img src="../Assets//129913812_1GG.jpg" alt="cel" class="imagem-venda">
+                                    <div>
+                                        <h4>R$30,00</h4>
+                                        <button type="button" class="btn btn-site">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="card">
+                            <div class="card-body align-items-center">
+                                <div class="row">
+                                    <img src="../Assets//129913812_1GG.jpg" alt="cel" class="imagem-venda">
+                                    <div>
+                                        <h4>R$30,00</h4>
+                                        <button type="button" class="btn btn-site">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="card">
+                            <div class="card-body align-items-center">
+                                <div class="row">
+                                    <img src="../Assets//129913812_1GG.jpg" alt="cel" class="imagem-venda">
+                                    <div>
+                                        <h4>R$30,00</h4>
+                                        <button type="button" class="btn btn-site">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="card">
+                            <div class="card-body align-items-center">
+                                <div class="row">
+                                    <img src="../Assets//129913812_1GG.jpg" alt="cel" class="imagem-venda">
+                                    <div>
+                                        <h4>R$30,00</h4>
+                                        <button type="button" class="btn btn-site">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Case World</h3>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
